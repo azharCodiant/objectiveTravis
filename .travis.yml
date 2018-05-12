@@ -1,0 +1,4 @@
+language: objective-c
+script: xcodebuild -project objectiveTravis.xcodeproj -scheme objectiveTravis -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
+
